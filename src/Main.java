@@ -1,25 +1,31 @@
 public class Main {
     
 
-    private static int i = 1000000000;  // 10^9
-    private static long l = 1000000000000000000L; //10^18
-    private static float f = 3.3E38f;
-  
+    private static int x = 2;
+    private static int y = 5;
+    
+    private static int a = 3;
+    private static int b = 7;
+    private static int c = 11;
+    
+    private static int year = 2019;
+    
     /**
-     * Fallen der Rechnerarithmetik
+     * Operatorpraezedenz
      */
     public static void main(String[] args){
         
-        i = i*i; System.out.println("i: "+ i);
-        l = l*l; System.out.println("l: "+ l);
-        f = f*f; 
+        int z = ++x * y--;
+        System.out.println(z);
         
-        //System.out.println("f: "+ f);
-        //System.out.println("1.0/0.0: "+ (1.0 / 0.0));
-        //System.out.println("0.0/0.0: "+ (0.0 / 0.0));
-        //System.out.println("1+1.0: "+ (1 + 1.0));
-        //System.out.println("1==1.0: "+ (1 == 1.0));
-        //System.out.println("1/0: "+ (1 / 0)); 
+        int result = a-++c-++b;
+        //System.out.println(result);
+              
+        boolean schaltjahr = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        //System.out.println(schaltjahr);	
+        
+        //System.out.println(1 + 2 + "abc");
+        //System.out.println("abc" + 1 + 2);
     }
     
 }
