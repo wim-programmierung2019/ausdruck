@@ -1,24 +1,25 @@
 public class Main {
     
+
+    private static int i = 1000000000;  // 10^9
+    private static long l = 1000000000000000000L; //10^18
+    private static float f = 3.3E38f;
+  
     /**
-     * Einstieg in ein Javaprogramm.
+     * Fallen der Rechnerarithmetik
      */
     public static void main(String[] args){
-        // deklariere eine ganzzahlige Variable "birnen"
-		
-		// weise ihr den Wert drei zu
-
-		System.out.println("3 erwartet: " + birnen);
-		// addiere fuenf zu dem Wert
-
-		System.out.println("8 erwartet: " + birnen);
-		// deklariere eine Variable "aepfel" und weise ihr den Wert fuenf zu
-
-		System.out.println("5 erwartet: " + aepfel);
-		// subtrahiere zwei von dem Wert
-
-		System.out.println("3 erwartet: " + aepfel);
-
+        
+        i = i*i; System.out.println("i: "+ i);
+        l = l*l; System.out.println("l: "+ l);
+        f = f*f; 
+        
+        //System.out.println("f: "+ f);
+        //System.out.println("1.0/0.0: "+ (1.0 / 0.0));
+        //System.out.println("0.0/0.0: "+ (0.0 / 0.0));
+        //System.out.println("1+1.0: "+ (1 + 1.0));
+        //System.out.println("1==1.0: "+ (1 == 1.0));
+        //System.out.println("1/0: "+ (1 / 0)); 
     }
     
 }
