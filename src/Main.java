@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     
     /**
@@ -24,6 +26,19 @@ public class Main {
 		aepfel -= 2;
 
 		System.out.println("3 erwartet: " + aepfel);
+		
+		if(aepfel>birnen){
+		    System.out.println( aepfel + " aepfel sind größer als " + birnen + " birnen");
+		}else if(aepfel==birnen) {
+		    System.out.println( aepfel + " aepfel sind gleich groß wie " + birnen + " birnen");
+		}else if(aepfel<birnen){
+		    System.out.println( aepfel + " aepfel sind kleiner als " + birnen + " birnen");
+		}
+		
+		/**Scanner scanner = new Scanner(System.in);
+		System.out.println("Wer bist Du?");
+		String eingabe = scanner.next();
+		System.out.println("Hallo, " + eingabe);*/
 
     }
     
