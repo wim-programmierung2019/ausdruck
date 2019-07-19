@@ -12,7 +12,7 @@ public class Main {
 
 		System.out.println("3 erwartet: " + birnen);
 		// addiere fuenf zu dem Wert
-		birnen = birnen + 5;
+		birnen += 5;
 	
 
 		System.out.println("8 erwartet: " + birnen);
@@ -21,7 +21,7 @@ public class Main {
 
 		System.out.println("5 erwartet: " + aepfel);
 		// subtrahiere zwei von dem Wert
-		aepfel = aepfel - 2;
+		aepfel -= 2;
 
 		System.out.println("3 erwartet: " + aepfel);
 
