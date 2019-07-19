@@ -16,13 +16,13 @@ public class Main {
 
 		System.out.println("8 erwartet: " + birnen);
 		// deklariere eine Variable "aepfel" und weise ihr den Wert fuenf zu
-        int aepfel = 5;
+        int aepfell = 5;
 
-		System.out.println("5 erwartet: " + aepfel);
+		System.out.println("5 erwartet: " + aepfell);
 		// subtrahiere zwei von dem Wert
-		aepfel -= 2;
+		aepfell -= 2;
 
-		System.out.println("3 erwartet: " + aepfel);
+		System.out.println("3 erwartet: " + aepfell);
 
     }
     
