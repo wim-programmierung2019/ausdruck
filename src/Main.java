@@ -14,7 +14,7 @@ public class Main {
 
 		System.out.println("3 erwartet: " + birnen);
 		// addiere fuenf zu dem Wert
-		birnen += 5;
+		uuu += 5;
 	
 
 		System.out.println("8 erwartet: " + birnen);
