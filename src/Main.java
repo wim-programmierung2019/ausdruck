@@ -5,7 +5,7 @@ public class Main {
      */
     public static void main(String[] args){
         // deklariere eine ganzzahlige Variable "birnen"
-		 int birnen; 
+		int birnen; 
 		// weise ihr den Wert drei zu
         birnen = 3;
 		System.out.println("3 erwartet: " + birnen);
@@ -18,7 +18,7 @@ public class Main {
 		// subtrahiere zwei von dem Wert
         aepfel -= 2;
 		System.out.println("3 erwartet: " + aepfel);
-
+        
     }
     
 }
